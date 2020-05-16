@@ -1,6 +1,16 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166839566-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-166839566-1');
+    </script>
+
     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
@@ -31,23 +41,23 @@
         </div>
     </div>
 
-        <div class="container" id="login">
-            <h4 class="text-center border-light p-5" id="loginHeading">Login to Add the Recipe</h4>
-            <div class="d-flex justify-content-center h-100" id="loginJumbotron">
-                <div class="jumbotron shadow-lg" style="height: fit-content;">
+    <div class="container" id="login">
+        <h4 class="text-center border-light p-5" id="loginHeading">Login to Add the Recipe</h4>
+        <div class="d-flex justify-content-center h-100" id="loginJumbotron">
+            <div class="jumbotron shadow-lg" style="height: fit-content;">
 
-                    <div class="container text-center">
-                        <label for="dishDescription">Username:</label>
-                        <input type="text" placeholder="Enter username" id="username" /></br></br>
+                <div class="container text-center">
+                    <label for="dishDescription">Username:</label>
+                    <input type="text" placeholder="Enter username" id="username" /></br></br>
 
-                        <label for="dishDescription">Password:</label>
-                        <input type="password" placeholder="Enter password" id="password" /></br></br>
+                    <label for="dishDescription">Password:</label>
+                    <input type="password" placeholder="Enter password" id="password" /></br></br>
 
-                        <button class="btn btn-primary" onclick="onLogin()">LOGIN</button>
-                    </div>
+                    <button class="btn btn-primary" onclick="onLogin()">LOGIN</button>
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
 </html>
