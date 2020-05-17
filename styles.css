@@ -114,11 +114,14 @@ body {
 
   #overlayCard{
       top: 8%;
+      width: 60%!important;
   }
 
 div#overlayCard > div#cross{
     visibility: hidden;
 }
+
+
 
 #DishBody{
     display: none;
