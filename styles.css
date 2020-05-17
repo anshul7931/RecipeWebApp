@@ -30,7 +30,7 @@
 
 #DishDescription{
     /* display: none; */
-    overflow-x: hidden;
+    overflow-y: hidden;
     color:black;
 }
 
